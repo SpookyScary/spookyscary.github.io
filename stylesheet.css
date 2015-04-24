@@ -292,6 +292,7 @@ html,body{
     padding: 10px 0;
     font-weight: 300;
     line-height: 15px;
+    box-shadow: 0px -1px 5px rgba(0,0,0,0.2);
     display: table-cell;
     vertical-align:middle;
     font-size: 15px;
@@ -305,7 +306,7 @@ html,body{
 }
 .back-btn{
     border-bottom: 1px solid #222;
-    background: rgba(243,243,243,0.7);
+    background: #eaeaea;;
     color: #cf3b28;
 }
 .back-btn:hover{
@@ -409,6 +410,7 @@ html,body{
 }
 .code-content{
     text-align:center;
+    padding-bottom: 35px;
 }
 .code-content h2{
     font-size: 45px;
@@ -419,7 +421,7 @@ html,body{
 }
 .code-content p{
     font-size: 17px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     width: 400px;
     letter-spacing: 2px;
     line-height: 22px;
@@ -442,4 +444,14 @@ html,body{
     background: #555;
     margin: 20px auto;
     box-shadow:inset 0px 50px 0px black, inset 0px 100px 0px #333; 
+}
+.code-content img{
+    border: 1px solid #eaeaea;
+}
+.code-top{
+    font-size: 100px;
+    color: #222;
+    margin-top: -20px;
+    text-shadow: 5px 5px 0px #eaeaea;
+    margin-bottom: -10px;
 }
