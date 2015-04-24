@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(".begin").on("click",function(){
-        $(".sec-A").addClass("showing");
+        $(".sec-B").addClass("showing");
         $(".head").hide();
     });
     $(".down").on("click",function(){
@@ -9,10 +9,10 @@ $(document).ready(function(){
     $(".home").on("click",function(){
         $(".side").removeClass("showing");
     });
-    $(".code-btn").on("click",function(){
-        $(".sec-B").addClass("showing");
+    $(".photo-btn").on("click",function(){
+        $(".sec-A").addClass("showing");
     });
     $(".back-btn").on("click",function(){
-        $(".sec-B").removeClass("showing");
+        $(".sec-A").removeClass("showing");
     });
 });

@@ -299,23 +299,24 @@ html,body{
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
 }
-.code-btn{
+.back-btn{
     border-bottom: 1px solid #222;
     background: #eaeaea;
     color: #cf3b28;
 }
-.code-btn:hover{
+.back-btn:hover{
     background: #cf3b28;
     letter-spacing: 4px;
     border-bottom: 1px solid #cf3b28;
     color: #eaeaea;
 }
-.back-btn{
+.photo-btn{
     background: #cf3b28;
     color: #eaeaea;
+    cursor:pointer;
     border-bottom: 1px solid #222;
 }
-.back-btn:hover{
+.photo-btn:hover{
     background: #eaeaea;
     color: #cf3b28;
     letter-spacing: 5px;
